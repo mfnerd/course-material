@@ -1,4 +1,4 @@
-FROM python:3.7-buster
+FROM python:3.14-rc-slim
 WORKDIR /root
 COPY train.py /root/train.py
 COPY requirements.txt /root/requirements.txt
