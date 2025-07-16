@@ -1,4 +1,4 @@
-FROM node:21.7.3-alpine3.18
+FROM node:21.7.3-alpine3.20
 EXPOSE 8080
 COPY server.js .
 CMD node server.js
